@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Apartamento en venta Chía, Cundinamarca. Amarilo Naranjo 3">
+        <meta name="robots" content="index, follow">
+        <title>Venta de Apto - Naranjo III</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--===========  BOX ICONS  ==========-->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--===========  SWIPER CSS  ==========-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <!--=============== HEADER =============-->
+        <header class="header">
+           <nav class="nav bd-container">
+               <a href="#" class="nav__logo">Apartamento</a>
+
+               <div class="nav__menu" id="nav-menu">
+                   <ul class="nav__list">
+                       <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+                       <li class="nav__item"><a href="#" class="nav__link">Precio</a></li>
+                       <li class="nav__item"><a href="#" class="nav__link">Galería</a></li>
+                       <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+                   </ul>
+               </div>
+
+               <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+               </div>
+           </nav>
+        </header>
+
+        <!--=============== MAIN =============-->
+        <main class="main">
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <!--=============== APTO-SECTION 1 =============-->
+                    <section class="features swiper-slide">
+                        <img src="assets/img/residences.jpg" alt="" class="features__bg">
+
+                        <div class="features__container bd-container">
+                            <div class="features__data">
+                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
+                                <h1 class="features__title">En Venta</h1>
+                                <p class="features__description">Apartamento ubicado en el último 
+                                                                piso de la Torre 5 por lo que cuenta 
+                                                                con buena entrada de luz natural.
+                                                                Zona tranquila y alejada de ruidos 
+                                                                exteriores.</p>
+                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                            </div>
+
+                            <div class="features__video">
+                                <div class="features__video-content">
+                                    <i class='bx bx-play-circle features__video-icon'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--=============== APTO-SECTION 2 =============-->
+                    <section class="features swiper-slide">
+                        <img src="assets/img/kitchen.jpg" alt="" class="features__bg">
+
+                        <div class="features__container bd-container">
+                            <div class="features__data">
+                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
+                                <h1 class="features__title">En Venta</h1>
+                                <p class="features__description">Cocina con mesón básico, lavaplatos, estufa y espacio para
+                                    barra comedor, nevera. La zona de ropas con lavadero, calentador a gas. </p>
+                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                            </div>
+
+                            <div class="features__video">
+                                <div class="features__video-content">
+                                    <i class='bx bx-play-circle features__video-icon'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--=============== APTO-SECTION 3 =============-->
+                    <section class="features swiper-slide">
+                        <img src="assets/img/room.jpg" alt="" class="features__bg">
+
+                        <div class="features__container bd-container">
+                            <div class="features__data">
+                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
+                                <h1 class="features__title">En Venta</h1>
+                                <p class="features__description">Con hermosa vista a la montaña. Por estar en el último piso cuenta con
+                                    mayor altura interior; espacio aprovechable para almacenaje. (Altura: 3.3 metros aprox.) </p>
+                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                            </div>
+
+                            <div class="features__video">
+                                <div class="features__video-content">
+                                    <i class='bx bx-play-circle features__video-icon'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--==========FEATURES POPUP=========-->
+                    <div class="features__popup" id="popup">
+                        <div>
+                            <div class="features__popup-close" id="popup-close">
+                                <i class='bx bx-x'></i>
+                            </div>
+
+                            <iframe class="features__popup-video" src="https://www.youtube.com/embed/I0IbLXV26_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==========CONTROLS=========-->
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="assets/img/residences.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/kitchen.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/room.jpg" alt="" class="controls__img swiper-slide">
+                </div>
+            </div>
+        </main>
+
+        <!--=============== GSAP =============-->
+        <script src="assets/js/gsap.min.js"></script>
+
+        <!--=============== SWIPER JS =============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS =============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
