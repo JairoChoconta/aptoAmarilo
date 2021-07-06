@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Apartamento en venta Chía, Cundinamarca. Amarilo Naranjo 3">
-        <meta name="robots" content="index, follow">
+        <meta name="robots" content="index,follow">
         <title>Venta de Apto - Naranjo III</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--===========  BOX ICONS  ==========-->
@@ -20,16 +20,77 @@
         <!--=============== HEADER =============-->
         <header class="header">
            <nav class="nav bd-container">
-               <a href="#" class="nav__logo">Apartamento</a>
+               <a href="#" class="nav__logo">Chía, Naranjo III</a>
 
-               <div class="nav__menu" id="nav-menu">
                    <ul class="nav__list">
-                       <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
-                       <li class="nav__item"><a href="#" class="nav__link">Precio</a></li>
-                       <li class="nav__item"><a href="#" class="nav__link">Galería</a></li>
-                       <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+                       <li class="nav__item"><a href="." class="nav__link">Inicio</a></li>
+                       <li class="nav__item"><a href="#" class="nav__link button-link info__button-nav">Precio</a></li>
+
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="info__modal-title">Precio</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <p class="features__description">El precio promedio de venta del apartamento con acabados está entre los <strong>180 y 200 millones.</strong><br>____________________________<br>Área construida: 56.03 m². Área privada: 50.06 m².</p>
+                                </div>
+                            </div>
+
+                       <li class="nav__item"><a href="#" class="nav__link button-link info__button-nav">Fotos</a></li>
+                            
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="info__modal-title">Galería</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <div class="gallery__container container swiper-container">
+                                        <p class="features__description"> ¡ Agenda una visita al ✆ 3202352410 !<br> </p>
+                                        <div class="swiper-wrapper">
+                                            <!--========== GALLERY 1 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery1.jpg" alt="" class="gallery__img">
+                                            </div>
+                                            <!--========== GALLERY 2 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery2.jpg" alt="" class="gallery__img">
+                                            </div>
+                                            <!--========== GALLERY 3 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery3.jpg" alt="" class="gallery__img">
+                                            </div>
+                                            <!--========== GALLERY 4 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery4.jpg" alt="" class="gallery__img">
+                                            </div>
+                                            <!--========== GALLERY 5 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery5.jpg" alt="" class="gallery__img">
+                                            </div>
+                                            <!--========== GALLERY 6 ==========-->
+                                            <div class="gallery__content grid swiper-slide">
+                                                <img src="assets/img/gallery6.jpg" alt="" class="gallery__img">
+                                            </div>
+                                        </div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next">
+                                        <!-- <i class="uil uil-angle-right-b swiper-portfolio-icon"></i> -->
+                                    </div>
+                                    <div class="swiper-button-prev">
+                                        <!-- <i class="uil uil-angle-left-b swiper-portfolio-icon"></i> -->
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                       <li class="nav__item"><a href="#" class="nav__link button-link info__button-nav">Contacto</a></li>
+                            
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="info__modal-title">Contacto</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <p class="features__description">¡ Agenda ya tu visita al ✆ 3202352410 !</p>
+                                </div>
+                            </div> 
                    </ul>
-               </div>
 
                <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
@@ -37,87 +98,114 @@
            </nav>
         </header>
 
-        <!--=============== MAIN =============-->
-        <main class="main">
+        <!--========== MAIN ==========-->
+        <main class='main'>
             <div class="swiper-container gallery-top">
                 <div class="swiper-wrapper">
-                    <!--=============== APTO-SECTION 1 =============-->
+                    <!--========== FEATURES 1 ==========-->
                     <section class="features swiper-slide">
                         <img src="assets/img/residences.jpg" alt="" class="features__bg">
 
                         <div class="features__container bd-container">
                             <div class="features__data">
-                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
+                                <h2 class="features__subtitle">Apartamento</h2>
                                 <h1 class="features__title">En Venta</h1>
-                                <p class="features__description">Apartamento ubicado en el último 
-                                                                piso de la Torre 5 por lo que cuenta 
-                                                                con buena entrada de luz natural.
-                                                                Zona tranquila y alejada de ruidos 
-                                                                exteriores.</p>
-                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                                <p class="features__description">El apartamento se encuentra ubicado en el último piso de la Torre N° 5: posee muy buena entrada de luz natural. Está en una zona tranquila y alejada de ruidos exteriores.</p>
+                                <span class="button button--flex button-link info__button">Más Info.<i class='bx bx-right-arrow-alt button__icon'></i></span>
                             </div>
+                        
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="info__modal-title">Descripción</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <p class="features__description">El conjunto Naranjo III hace parte de un proyecto de 3 etapas ubicado sobre la variante Chía-Cota a 10 minutos de Centro Chía y 8 minutos del parque principal. Cercana a gimnasios y supermercados. <br><br><i>Se dispone de áreas verdes, vigilancia privada, zonas de parqueo, bici-parqueadero y salón comunal.</i> El costo mensual de administración es de $114.000.</p> ____________________________<br> 
+                                        <ul class="features__description">
+                                            <li>Área construida: 56.03 m²</li>
+                                            <li>Área privada: 50.06 m²</li>
+                                            <li>**El precio promedio de venta del apartamento con acabados está entre los <strong>180 y 200 millones</strong>.</li>
+                                        </ul>
+                                </div>
+                            </div> 
 
                             <div class="features__video">
                                 <div class="features__video-content">
                                     <i class='bx bx-play-circle features__video-icon'></i>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </section>
-                    <!--=============== APTO-SECTION 2 =============-->
+        
+                    <!--========== FEATURES 2 ==========-->
                     <section class="features swiper-slide">
                         <img src="assets/img/kitchen.jpg" alt="" class="features__bg">
 
                         <div class="features__container bd-container">
                             <div class="features__data">
-                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
-                                <h1 class="features__title">En Venta</h1>
-                                <p class="features__description">Cocina con mesón básico, lavaplatos, estufa y espacio para
-                                    barra comedor, nevera. La zona de ropas con lavadero, calentador a gas. </p>
-                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                                <h2 class="features__subtitle">Apartamento</h2>
+                                <h1 class="features__title">En venta</h1>
+                                <p class="features__description-two">Cocina con espacio para instalar barra comedor. <br> Zona de ropas con lavadero y calentador a gas.</p>
+                                <span class="button button--flex button-link info__button">Más Info.<i class='bx bx-right-arrow-alt button__icon'></i></span>
                             </div>
 
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="i
+                                    nfo__modal-title">Cocina y Zona de lavandería</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <p class="features__description">La cocina cuenta con mesón básico con lavaplatos y estufa, espacio para nevera, zona de ropas con espacio para lavadora, lavadero y calentador de agua a gas, espacio para instalar barra comedor. <br> </p>
+                                </div>
+                            </div>
+                             
                             <div class="features__video">
                                 <div class="features__video-content">
                                     <i class='bx bx-play-circle features__video-icon'></i>
                                 </div>
-                            </div>
+                            </div>  
                         </div>
                     </section>
-                    <!--=============== APTO-SECTION 3 =============-->
+                    
+                    <!--========== FEATURES 3 ==========-->
                     <section class="features swiper-slide">
                         <img src="assets/img/room.jpg" alt="" class="features__bg">
 
                         <div class="features__container bd-container">
                             <div class="features__data">
-                                <h2 class="features__subtitle">Chía, NARANJO III</h2>
+                                <h2 class="features__subtitle">Apartamento</h2>
                                 <h1 class="features__title">En Venta</h1>
-                                <p class="features__description">Con hermosa vista a la montaña. Por estar en el último piso cuenta con
-                                    mayor altura interior; espacio aprovechable para almacenaje. (Altura: 3.3 metros aprox.) </p>
-                                <a href="#" class="features__button">Más <br> Información <i class='bx bx-right-arrow-alt features__button-icon'></i></a>
+                                <p class="features__description">Hermosa vista a la montaña. Mayor altura interior, con respecto a los otros aptos. de Naranjo III.</p>
+                                <span class="button button--flex button-link info__button">Más Info.<i class='bx bx-right-arrow-alt button__icon'></i></span>
                             </div>
+                        
+                            <div class="info__modal">
+                                <div class="info__modal-content">
+                                    <h2 class="info__modal-title">Espacios Interiores</h2>
+                                    <i class='bx bxs-x-circle info__modal-close'></i>
+                                    <p class="features__description">Cuenta con sala-comedor, espacio con vista a la montaña y al interior del conjunto, 2 habitaciones (habitación principal con opción a segundo baño y closet) y espacio para estudio o tercera habitación, baño con enchape en piso y ducha. La ventana de la habitación principal da al parque público que acaba de inaugurar el municipio. <br><br> El apartamento tienen una altura mayor respecto a los demás apartamentos, este espacio se puede usar como espacio de almacenaje. Altura: 3.3 metros aprox.</p>
+                                </div>
+                            </div> 
 
                             <div class="features__video">
                                 <div class="features__video-content">
                                     <i class='bx bx-play-circle features__video-icon'></i>
                                 </div>
-                            </div>
+                            </div>  
                         </div>
                     </section>
 
-                    <!--==========FEATURES POPUP=========-->
+                    <!--========== FEATURES POPUP ==========-->
                     <div class="features__popup" id="popup">
                         <div>
                             <div class="features__popup-close" id="popup-close">
                                 <i class='bx bx-x'></i>
                             </div>
-
-                            <iframe class="features__popup-video" src="https://www.youtube.com/embed/I0IbLXV26_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                            <iframe class="features__popup-video" src="https://www.youtube.com/embed/21fh9Iyeak4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--==========CONTROLS=========-->
+
+            <!--========== CONTROLS ==========-->
             <div class="controls gallery-thumbs">
                 <div class="controls__container swiper-wrapper">
                     <img src="assets/img/residences.jpg" alt="" class="controls__img swiper-slide">
@@ -127,13 +215,13 @@
             </div>
         </main>
 
-        <!--=============== GSAP =============-->
+        <!--========== GSAP ==========-->
         <script src="assets/js/gsap.min.js"></script>
 
-        <!--=============== SWIPER JS =============-->
+        <!--========== SWIPER JS ==========-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
-        <!--=============== MAIN JS =============-->
+        <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
